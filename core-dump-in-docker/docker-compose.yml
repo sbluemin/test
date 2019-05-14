@@ -1,0 +1,8 @@
+version: "2.1"
+
+services:
+  core-dump-in-docker:
+    build:
+      context: .
+    volumes:
+      - /var/crash:/var/crash
